@@ -106,7 +106,7 @@ function! s:RemoveOneRefLeaf()
     endfor
 endfunction
 
-function! DigraphFilter#execution()
+function! AnatableExecutionLogDigraphVimFilter#execution()
   call s:RemoveShaderProgram()
   call s:RemoveOneRefLeaf()
 endfunction
